@@ -1,0 +1,78 @@
+{
+  "name": "es6.react.talk",
+  "version": "0.0.1",
+  "description": "ES6 & React Talk starter kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "dist": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamkunz/es6.react.talk.git"
+  },
+  "engines": {
+    "node": "5.4.0",
+    "npm": "3.3.12"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "boilerplate",
+    "production",
+    "sass",
+    "hot",
+    "reload"
+  ],
+  "author": "William Kunz",
+  "bugs": {
+    "url": "https://github.com/williamkunz/es6.react.talk/issues"
+  },
+  "homepage": "https://github.com/williamkunz/es6.react.talk",
+  "dependencies": {
+    "assets-webpack-plugin": "2.2.0",
+    "attr-accept": "^1.0.3",
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.1.3",
+    "babel-jscs": "^2.0.4",
+    "babel-loader": "^5.3.2",
+    "babel-plugin-react-transform": "^1.0.5",
+    "classnames": "^2.1.5",
+    "css-loader": "0.19.0",
+    "express": "4.13.3",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^1.6.2",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.6.0",
+    "react": "^0.14.7",
+    "react-addons-update": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "2.0.0",
+    "react-validation-mixin": "^4.2.0",
+    "sass-loader": "^3.1.1",
+    "stats-webpack-plugin": "^0.2.1",
+    "style-loader": "^0.12.4",
+    "tether": "^1.1.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "chai": "^3.2.0",
+    "eslint": "^1.5.0",
+    "eslint-plugin-react": "^3.4.2",
+    "joi": "^7.1.0",
+    "jscs": "^2.1.1",
+    "jsdom": "^6.5.1",
+    "json-loader": "^0.5.3",
+    "node-libs-browser": "0.5.2",
+    "react-hot-loader": "1.2.5",
+    "react-transform-hmr": "^1.0.0",
+    "rimraf": "^2.4.3",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-hot-middleware": "^2.2.0"
+  }
+}
