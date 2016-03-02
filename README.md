@@ -1,4 +1,4 @@
-# BBI ADMIN
+# ES6 & React talk template
 
 ## Install
 Use Node 5.4.x
